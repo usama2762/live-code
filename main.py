@@ -1,9 +1,7 @@
 
-print("numpy")
-# test_capitalize.py
-
 def capital_case(x):
     return x.capitalize()
 
-def 
+def get_max(numbers):
+    return max(numbers)
 
