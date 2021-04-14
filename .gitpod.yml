@@ -10,4 +10,5 @@ ports:
     onOpen: ignore
 
 tasks:
-  - command: python3 test_main.py
+  - init: pip3 install -r requirements.txt
+    command: python3 python3 test_main.py
