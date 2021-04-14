@@ -7,4 +7,4 @@ RUN sudo apt-get -q update &&     sudo DEBIAN_FRONTEND=noninteractive apt-get in
 
 # Install wxPython
 RUN pip3 install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-18.04/ wxPython
-RUN pip3 install numpy
+RUN pip3 install -r requirements.txt
